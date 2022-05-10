@@ -18,5 +18,12 @@ module.exports = {
       "cupcake",
     ],
   },
+  theme: {
+    extend: {
+      backgroundImage: {
+        'banner-bg': "url('/src/assets/images/bg.png')",
+      }
+    }
+  },
   plugins: [require("daisyui")],
 }
